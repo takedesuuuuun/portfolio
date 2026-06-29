@@ -1,0 +1,14 @@
+header {
+  background-color: #ffffff;
+}
+
+h1, h2, p{
+  color: #000000;
+  font-family: Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 80px 0;
+}
