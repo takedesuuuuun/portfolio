@@ -1,14 +1,92 @@
-header {
-  background-color: #ffffff;
-}
-
-h1, h2, p{
-  color: #000000;
-  font-family: Verdana, sans-serif;
-}
-
 h1 {
   font-size: 3rem;
   text-align: center;
   padding: 80px 0;
+}
+
+.hamburger {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  width: 56px;
+  height: 56px;
+  opacity: 60%;
+
+  background-color: #c0c0c0;
+  border: 2px solid #ffffff;
+  border-radius: 20%;
+
+  cursor: pointer;
+}
+
+.hamburger .closeHamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.hamburger span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background: #000000;
+  border-radius: 2px;
+}
+
+.hamburger .openHamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburger .leftCross {
+  top: 27px;
+  display: block;
+  width: 36px;
+  height: 4px;
+  background: #000000;
+  border-radius: 2px;
+  transform: translateX(0%) rotate(45deg);
+}
+
+.hamburger .rightCross {
+  top: 27px;
+  display: block;
+  width: 36px;
+  height: 4px;
+  background: #000000;
+  border-radius: 2px;
+  transform: translateX(0%) rotate(-45deg);
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 200px;
+
+  width: 100%;
+
+  background: gray;
+  border-radius: 10px;
+  padding: 20px;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 15px 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
 }
