@@ -6,9 +6,9 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return(
-    <header>
+    <header id="home">
       <div>
-        <img src="../public/Icon.png" alt="Icon" />
+        <a href="#home"><img src="../public/Icon.png" alt="Icon" /></a>
         <nav>
           <div className="pcMenu">
             <ul>
