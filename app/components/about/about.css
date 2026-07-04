@@ -13,12 +13,31 @@ main {
   font-size: 200%;
 }
 
-#about span {
+#about h3 {
+  font-size: 150%;
+  margin-top: 20px;
+}
+
+#about small {
+  font-size: 50%;
+}
+
+#about .blueLine {
   display: block;
   width: 150px;
   height: 4px;
   
   background: linear-gradient(to right, #4facfe, #ffffff);
+
+  margin-bottom: 30px;
+}
+
+#about .orangeLine {
+  display: block;
+  width: 150px;
+  height: 4px;
+  
+  background: linear-gradient(to right, #ff9625, #ffffff);
 
   margin-bottom: 30px;
 }
