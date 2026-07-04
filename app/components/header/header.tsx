@@ -8,8 +8,8 @@ export function Header() {
   return(
     <header id="home">
       <div>
-        <a href="#home"><img src="../public/Icon.png" alt="Icon" /></a>
         <nav>
+          <a href="#home"><img src="../public/Icon.png" alt="Icon" /></a>
           <div className="pcMenu">
             <ul>
               <li><a href="#about">About</a></li>

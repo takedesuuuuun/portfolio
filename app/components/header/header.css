@@ -22,6 +22,10 @@ header img {
   margin-left: 10px;
 }
 
+header a {
+  width: 100px;
+}
+
 .pcMenu {
   position: fixed;
   top: 18px;

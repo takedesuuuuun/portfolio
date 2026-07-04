@@ -1,0 +1,24 @@
+main {
+  padding-top: 80px;
+}
+
+#about {
+  position: relative;
+  width: 64%;
+  top: 0;
+  left: 18%;
+}
+
+#about h2 {
+  font-size: 200%;
+}
+
+#about span {
+  display: block;
+  width: 150px;
+  height: 4px;
+  
+  background: linear-gradient(to right, #4facfe, #ffffff);
+
+  margin-bottom: 30px;
+}
