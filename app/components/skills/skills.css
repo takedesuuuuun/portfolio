@@ -1,0 +1,54 @@
+#skills {
+  position: relative;
+  width: 64%;
+  top: 30px;
+  left: 18%;
+}
+
+div.anchor {
+  display: block;
+  padding-top: 70px;
+  margin-top: -70px;
+}
+
+#skills h2 {
+  font-size: 200%;
+}
+
+#skills h3 {
+  font-size: 150%;
+  margin-top: 20px;
+}
+
+#skills ul {
+  margin-top: 10px;
+}
+
+#skills li {
+  list-style-type: disc;
+  margin-left: 18px;
+}
+
+#skills small {
+  font-size: 50%;
+}
+
+#skills .blueLine {
+  display: block;
+  width: 150px;
+  height: 4px;
+  
+  background: linear-gradient(to right, #4facfe, #ffffff);
+
+  margin-bottom: 30px;
+}
+
+#skills .orangeLine {
+  display: block;
+  width: 200px;
+  height: 4px;
+  
+  background: linear-gradient(to right, #ff9625, #ffffff);
+
+  margin-bottom: 15px;
+}

@@ -2,6 +2,12 @@ main {
   padding-top: 80px;
 }
 
+div.anchor {
+  display: block;
+  padding-top: 70px;
+  margin-top: -70px;
+}
+
 #about {
   position: relative;
   width: 64%;
@@ -13,7 +19,11 @@ main {
   font-size: 200%;
 }
 
-#about span {
+#about small {
+  font-size: 50%;
+}
+
+#about .blueLine {
   display: block;
   width: 150px;
   height: 4px;
