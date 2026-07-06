@@ -2,6 +2,12 @@ main {
   padding-top: 80px;
 }
 
+div.anchor {
+  display: block;
+  padding-top: 70px;
+  margin-top: -70px;
+}
+
 #about {
   position: relative;
   width: 64%;
@@ -11,11 +17,6 @@ main {
 
 #about h2 {
   font-size: 200%;
-}
-
-#about h3 {
-  font-size: 150%;
-  margin-top: 20px;
 }
 
 #about small {
@@ -28,16 +29,6 @@ main {
   height: 4px;
   
   background: linear-gradient(to right, #4facfe, #ffffff);
-
-  margin-bottom: 30px;
-}
-
-#about .orangeLine {
-  display: block;
-  width: 150px;
-  height: 4px;
-  
-  background: linear-gradient(to right, #ff9625, #ffffff);
 
   margin-bottom: 30px;
 }
