@@ -1,7 +1,8 @@
 import type { Route } from "./+types/home";
-import { Header } from "../components/header/header"
-import { About } from "../components/about/about"
-import { Skills } from "../components/skills/skills"
+import { Header } from "../components/header/header";
+import { About } from "../components/about/about";
+import { Skills } from "../components/skills/skills";
+import { Works } from "../components/works/works";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -16,8 +17,9 @@ export default function Home() {
       <Header />
 
       <main>
-      <About />
-      <Skills />
+        <About />
+        <Skills />
+        <Works />
       </main>
     </div>
   );
