@@ -15,6 +15,10 @@ div.anchor {
   font-size: 200%;
 }
 
+#works h4 {
+  font-size: 125%;
+}
+
 #works small {
   font-size: 50%;
 }
@@ -60,6 +64,20 @@ div.anchor {
 
 #noContents span:nth-child(2) {
   transform: rotate(-30deg);
+}
+
+#contents {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 64px;
+}
+
+#contents p {
+  padding-bottom: 24px;
+}
+
+#contents img {
+  width: 100%;
 }
 
 #works .blueLine {
