@@ -1,0 +1,24 @@
+#footer {
+  position: relative;
+  width: 100%;
+  top: 180px;
+  left: 0;
+}
+
+footer {
+  padding: 100px 0;
+  background-color: #4facfe;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  margin-bottom: 30px;
+}
+
+footer small {
+  font-size: 75%;
+}
