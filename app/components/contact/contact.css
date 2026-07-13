@@ -1,0 +1,49 @@
+#contact {
+  position: relative;
+  width: 64%;
+  top: 90px;
+  left: 18%;
+}
+
+div.anchor {
+  display: block;
+  padding-top: 70px;
+  margin-top: -70px;
+}
+
+#contact h2 {
+  font-size: 200%;
+}
+
+#contact small {
+  font-size: 50%;
+}
+
+#contact p {
+  margin-bottom: 32px;
+}
+
+#contact a {
+  font-size: 125%;
+  color: inherit;
+
+  text-decoration: underline;
+
+  margin-right: 32px;
+}
+
+#contact a:hover {
+  transition: 0.3s;
+  color: #4facfe;
+  opacity: 70%;
+}
+
+#contact .blueLine {
+  display: block;
+  width: 150px;
+  height: 4px;
+  
+  background: linear-gradient(to right, #4facfe, #ffffff);
+
+  margin-bottom: 30px;
+}
