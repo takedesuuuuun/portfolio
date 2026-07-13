@@ -27,7 +27,7 @@ export function Contact() {
       <h2>Contact <small>連絡</small></h2>
       <span className="blueLine"></span>
 
-      <p>連絡先です。お気軽にお問い合わせください。ご相談やご質問など、お待ちしております。</p>
+      <p>連絡先・SNSです。お気軽にお問い合わせください。ご相談やご質問など、お待ちしております。</p>
       
       {contacts.map((contact) => (
           <a
