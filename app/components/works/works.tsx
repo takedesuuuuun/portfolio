@@ -14,38 +14,10 @@ export function Works() {
     {
       id: 1,
       title: "Portfolio",
-      image: "../public/Icon.png",
-      link: "#",  //Vercel公開でそのリンク
+      image: "/Icon.png",
+      link: "https://portfolio-self-rho-s8hs0om3cl.vercel.app/",
       description: "takedesuuuuunのポートフォリオです。"
     },
-    {
-      id: 2,
-      title: "Portfolio",
-      image: "../public/Icon.png",
-      link: "#",  //Vercel公開でそのリンク
-      description: "takedesuuuuunのポートフォリオです。2"
-    },
-    {
-      id: 3,
-      title: "Portfolio",
-      image: "../public/Icon.png",
-      link: "#",  //Vercel公開でそのリンク
-      description: "takedesuuuuunのポートフォリオです。3"
-    },
-    {
-      id: 4,
-      title: "Portfolio",
-      image: "../public/Icon.png",
-      link: "#",  //Vercel公開でそのリンク
-      description: "takedesuuuuunのポートフォリオです。4"
-    },
-    {
-      id: 5,
-      title: "Portfolio",
-      image: "../public/Icon.png",
-      link: "#",  //Vercel公開でそのリンク
-      description: "takedesuuuuunのポートフォリオです。5"
-    }
   ];
   
 

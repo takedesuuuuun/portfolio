@@ -9,7 +9,7 @@ export function Header() {
     <header id="home">
       <div>
         <nav>
-          <a href="#home"><img src="../public/Icon.png" alt="Icon" /></a>
+          <a href="#home"><img src="/Icon.png" alt="Icon" /></a>
           <div className="pcMenu">
             <ul>
               <li><a href="#about">About</a></li>
