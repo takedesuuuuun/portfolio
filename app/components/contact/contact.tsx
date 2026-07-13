@@ -10,7 +10,7 @@ export function Contact() {
   const contacts: Contact[] = [
     {
       name: "Email",
-      url: "mailto:takeaninjin@getMaxListeners.com"
+      url: "mailto:takeaninjin@gmail.com"
     },
     {
       name: "Github",
