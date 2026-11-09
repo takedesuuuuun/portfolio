@@ -66,8 +66,7 @@ div.anchor {
   transform: rotate(-30deg);
 }
 
-#contents {
-  max-width: 200px;
+.contents {
   width: 100%;
 
   display: grid;
@@ -75,12 +74,18 @@ div.anchor {
   gap: 64px;
 }
 
-#contents p {
+.contents li {
+  width: 100%;
+  max-width: 200px;
+}
+
+.contents p {
   padding-bottom: 24px;
 }
 
-#contents img {
+.contents img {
   width: 100%;
+  max-height: 250px;
 }
 
 #works .blueLine {

@@ -16,8 +16,15 @@ export function Works() {
       title: "Portfolio",
       image: "/Icon.png",
       link: "https://portfolio-self-rho-s8hs0om3cl.vercel.app/",
-      description: "takedesuuuuunのポートフォリオです。"
+      description: "takedesuuuuunのポートフォリオです。(現在のページ)"
     },
+    {
+      id: 2,
+      title: "Todo-app",
+      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0gd1AdwbKPHvU5RaaWQLxAkmrwofr7cMQydo07eOCJHB0N9tH1VaEo1lhuJDWaPzM_HKMzVyIqPpHhoov-D09v2TkcPy61BrOIaiENhdCIP4LTCkZSeI1EbQ9xBZ5jcg7sFVIJvTb2MwQ/s400/no_image_tate.jpg",
+      link: "https://todo-app-iota-inky-94.vercel.app/",
+      description: "Reactを使用した簡素なTodoアプリです。"
+    }
   ];
   
 
@@ -35,7 +42,7 @@ export function Works() {
             </p>
           </div>
         ) : (
-          <ul id="contents">
+          <ul className="contents">
             {works.map((work) => (
               <li key={work.id}>
                 <a href={work.link} target="_blank" rel="noopener noreferrer">
